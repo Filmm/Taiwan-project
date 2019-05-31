@@ -1,0 +1,154 @@
+body{
+	background-color: white;
+}
+
+
+
+
+.jumbotron{
+background-image: url("../images/cc.jpg");
+background-size: 100%;
+padding: 11vw;
+}
+
+#jumbotronH1{
+font-size: 3vw;
+margin-top: 3vw;
+background-color: rgba(10,10,10,0.5); /* 半透明顏色 */
+color: white;
+border-style: solid;
+border-radius: 1vw;
+border-color: white;
+padding: 1vw;
+display: inline-block;
+}
+
+#jumbotronP{
+font-size: 1.5vw;
+margin-bottom: 3vw;
+color: #CA8EC2;
+font-style: bold;
+}
+
+#jumbotronButton{
+margin-bottom: 1vw;
+}
+
+.image-shadow{
+box-shadow: 5px 5px 5px gray;
+}
+
+a:hover{
+text-decoration: none;
+}
+
+figure:hover{
+opacity: 0.7;
+}
+
+figcaption{
+font-size: 14px;
+color: black;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+figure img{
+margin:5 auto;
+}
+
+footer{
+border-width: 1px 0px 0px 0px;
+border-style: solid;
+padding-top: 15px;
+margin: 10px;
+text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+padding: 10px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin-top: 20px;
+border-radius: 50%; /* Circle Icon */
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-vimeo {
+background: #45bbff;
+color: white;
+}
+
+@media (max-width: 768px) {
+.btn-responsive {
+padding: 1.2vw;
+font-size:2vw;
+}
+.jumbotron{
+padding: 5px;
+margin-bottom: 5px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+.btn-responsive { 
+font-size:2vw;
+}
+#jumbotronH1{
+margin-top: 2vw;
+}
+}
+
+@media (min-width: 993px) {
+#jumbotronH1{
+margin-top: 1vw;
+} 
+#jumbotronP{
+margin-bottom: 1vw;
+}
+}
+
+.papers{
+font-size: 18px;
+}
+
+.papers li{
+margin-bottom: 10px;
+list-style: none;
+}
+
+body{
+
+}
